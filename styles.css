@@ -721,9 +721,10 @@ a {
   } */
   .item {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 10px;
+    margin-top: 10px;
     border: 1px solid red;
   }
   .aLinkHead {
