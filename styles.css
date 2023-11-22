@@ -716,9 +716,9 @@ a {
       font-weight: 600;
       font-size: 19px;
   }
-  /* .soldeTitle {
-      margin-top: -5px;
-  } */
+  .soldeTitle {
+      margin-left: 10px;
+  }
   .solodNumber {
     margin: 0px 20px;
   }
