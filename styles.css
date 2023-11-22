@@ -719,6 +719,9 @@ a {
   /* .soldeTitle {
       margin-top: -5px;
   } */
+  .solodNumber {
+    margin: 0px 20px;
+  }
   .item {
     display: flex;
     justify-content: space-around;
