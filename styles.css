@@ -646,7 +646,6 @@ a {
     }*/
     .footer {
         margin-top: 10px;
-       border: 1px solid red;
     }
     /* .......BLUE CONTAINER END..... */
 }
@@ -696,7 +695,6 @@ a {
   }
 
   .footer {
-    border: 1px solid rgb(0, 17, 255);
       margin-top: 10px;
   }
   /* .......BLUE CONTAINER END..... */
@@ -787,9 +785,7 @@ a {
     background-color:#aca3be24 ;
 }
   .footer {
-      /* height: 50px; */
       margin-top: 10px;
-      border: 1px solid rgb(0, 255, 8);
   }
   /* .......BLUE CONTAINER END..... */
 }
