@@ -487,9 +487,19 @@ a {
 /* ..............MEDIA QUERY FOR SMALL DEVICES.... */
 
 @media (min-width: 0px) and (max-width: 320px) {
-    /* .bodyContainer {
-        height: 75vh;
-    } */
+  .navLink {
+    margin-right: 23px;
+  }
+  .title {
+    font-size: 12px;
+    width: 100px;
+  }
+  .name {
+    font-size: 12px;
+    width: 100px;
+    margin-left: -5px;
+  }
+  
     /* .......BLUE CONTAINER START..... */
     .secondNavContainer {
         margin-bottom: 10px;
@@ -499,16 +509,16 @@ a {
         font-weight: 600;
         font-size: 20px;
     }
-    /* .soldeTitle {
-        margin-top: -5px;
-        
-    } */
+    .soldeTitle {
+        margin-top: 30px;
+    }
     .aLinkHead {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0px 10px;
-        width: 110px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 10px;
+      width: 110px;
+      margin-top: 15px;
     }
     .bodyPage {
         /* height: 55vh; */
@@ -765,7 +775,7 @@ a {
 
 /* ...............STYLE FOR TABLET SCREEN........... */
 
-@media (min-width: 712px) and (max-width: 1024px) {
+@media (min-width: 600px) and (max-width: 1024px) {
   .navLink {
     display: flex;
     justify-content: center;
@@ -811,12 +821,12 @@ a {
       margin-top: -5px;
   } */
   .aLinkHead {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 6px 20px;
-      width: 120px;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    width: 120px;
+}
   /*.bodyPage {
        height: 50vh;
       margin-top: 15px; 

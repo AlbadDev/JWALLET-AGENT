@@ -505,6 +505,9 @@ a {
     .secondNavContainer {
         margin-bottom: 10px;
     }
+    .soldeTitle {
+      margin-top: 30px;
+    }
     .solodNumber {
         color:#f99f1b;
         font-weight: 600;
@@ -518,8 +521,9 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0px 10px;
+        padding: 10px 10px;
         width: 110px;
+        margin-top: 15px;
     }
     .bodyPage {
         /* height: 55vh; */
@@ -629,7 +633,7 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 6px 20px;
+        padding: 10px 20px;
         width: 100px;
     }
    /* .bodyPage {
@@ -716,7 +720,7 @@ a {
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 6px 20px;
+      padding: 10px 20px;
       width: 100px;
   }
   /*.bodyPage {
@@ -782,13 +786,13 @@ a {
 
 
 /* ...............STYLE FOR TABLET SCREEN........... */
-@media (min-width: 712px) and (max-width: 1024px) {
+@media (min-width: 600px) and (max-width: 1024px) {
   .navLink {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 40%;
-
+    margin-right: 15px;
   }
   .title {
     /* border: 1px solid red; */
@@ -830,7 +834,7 @@ a {
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 6px 20px;
+      padding: 10px 20px;
       width: 120px;
   }
   /*.bodyPage {
@@ -876,7 +880,7 @@ a {
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 6px 20px;
+      padding: 10px 20px;
       width: 120px;
   }
   /* .bodyPage {
@@ -888,6 +892,13 @@ a {
   .lastBill {
     margin-top: 20px;
     width: 80%;
+  }
+  .bodyBill {
+    overflow: auto;
+  }
+  .billInfo {
+    /* border: 1px solid red; */
+    max-height: 50px;
   }
   .footer {
       /* height: 50px; */

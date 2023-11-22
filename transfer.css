@@ -584,6 +584,14 @@ input:checked + .slider:before {
     font-weight: 600;
     font-size: 19px;
   }
+  .aLinkHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    width: 110px;
+    margin-top: 15px;
+  }
   .transterFormContainer {
     padding-top: 60px;
   }
@@ -781,12 +789,13 @@ input:checked + .slider:before {
 
 /* ...............STYLE FOR TABLET SCREEN........... */
 
-@media (min-width: 712px) and (max-width: 1023px) {
+@media (min-width: 600px) and (max-width: 1023px) {
   .navLink {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 40%;
+    margin-right: 15px;
   }
   .title {
     /* border: 1px solid red; */
@@ -811,12 +820,12 @@ input:checked + .slider:before {
       margin-top: -5px;
   } */
   .aLinkHead {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 6px 20px;
-      width: 120px;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    width: 120px;
+}
   /*.bodyPage {
        height: 50vh;
       margin-top: 15px; 
