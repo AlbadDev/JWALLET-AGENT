@@ -719,6 +719,13 @@ a {
   /* .soldeTitle {
       margin-top: -5px;
   } */
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid red;
+  }
   .aLinkHead {
       display: flex;
       justify-content: center;
