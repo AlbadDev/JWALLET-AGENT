@@ -636,6 +636,9 @@ a {
         padding: 10px 20px;
         width: 100px;
     }
+    .opencAMcONTAINER {
+      margin-top: 20px;
+    }
    /* .bodyPage {
          height: 50vh;
         margin-top: 15px; 
@@ -643,7 +646,7 @@ a {
     }*/
     .footer {
         margin-top: 10px;
-       
+       border: 1px solid red;
     }
     /* .......BLUE CONTAINER END..... */
 }
@@ -693,7 +696,7 @@ a {
   }
 
   .footer {
-      /* height: 50px; */
+    border: 1px solid rgb(0, 17, 255);
       margin-top: 10px;
   }
   /* .......BLUE CONTAINER END..... */
@@ -772,7 +775,7 @@ a {
   .footer {
       /* height: 50px; */
       margin-top: 10px;
-      /* border: 2px solid red; */
+      border: 1px solid rgb(0, 255, 8);
   }
   /* .......BLUE CONTAINER END..... */
 }
